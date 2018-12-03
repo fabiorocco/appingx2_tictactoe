@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         btn_start.setOnClickListener {
             val explicitIntent = Intent(this@MainActivity, GameActivity::class.java)
-            explicitIntent.putExtra("name", "test")
+            val inputName = input_name.text
+            explicitIntent.putExtra("name", inputName.toString())
             startActivity(explicitIntent)
         }
     }

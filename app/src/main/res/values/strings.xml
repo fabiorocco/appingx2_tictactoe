@@ -9,4 +9,9 @@
     <string name="start">Start</string>
     <string name="made_at">Made at</string>
     <string name="todo">TODO</string>
+    <string name="x">X</string>
+    <string name="x_guest">X (GUEST)</string>
+    <string name="o_john_doe">O (John Doe)</string>
+    <string name="player_turn_IA">Player turn:</string>
+    <string name="player_turn">Player turn:</string>
 </resources>
