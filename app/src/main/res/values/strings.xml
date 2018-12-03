@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
+    <string name="tic_tac_toe">Tic Tac Toe</string>
+    <string name="one_app_one_game_made_by_fabio_rocco_for_android_exam_on_dec_3rd">One app, one game, Made by Fabio
+        Rocco for Android exam on Dec 3rd.
+    </string>
+    <string name="please_enter_your_name">Please enter your name:</string>
+    <string name="name">Name</string>
+    <string name="start">Start</string>
+    <string name="made_at">Made at</string>
+    <string name="todo">TODO</string>
 </resources>
